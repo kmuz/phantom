@@ -10,4 +10,5 @@
 			abstract public function abrir();
 			abstract public function cerrar();
 			abstract public function ejecutar($sql);
+			abstract public function buscarTodos($tabla);
 	}
